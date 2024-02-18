@@ -1,3 +1,3 @@
 function chaeyoung(){
-    window.location.href = "chaeyoung/chaeyoung.html";
+    window.location.href = "chaeyoung.html";
 }

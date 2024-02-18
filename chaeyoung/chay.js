@@ -3,7 +3,7 @@ const info = document.querySelector('.info');
 const vid = document.querySelector('.video');
 
 function menu(){
-    window.location.href = "/index.html";
+    window.location.href = "index.html";
 }
 
 image.addEventListener('mouseover', () => {
