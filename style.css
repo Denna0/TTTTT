@@ -15,8 +15,8 @@ body {
     gap: 5px;
     width: 1250px;
     height: 600px;
-    transition: all 400ms;
-    margin: 0 auto; 
+    transition: all 800ms cubic-bezier(0.645, 0.045, 0.355, 1);
+    margin: 0 auto;
     padding-top: 90px;
 }
 .container:hover .box {
@@ -25,7 +25,7 @@ body {
 .container .box {
     position: relative;
     background: var(--img) center/ cover;
-    transition: all 400ms;
+    transition: all 700ms cubic-bezier(0.645, 0.045, 0.355, 1);
     display: flex; 
     justify-content: center; 
     align-items: center;
@@ -78,7 +78,7 @@ body {
     text-transform: capitalize;
     transform: translateY(60px);
     opacity: 0;
-    transition: all 400ms;
+    transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
     display: flex; 
     justify-content: center; 
     align-items: center; 
